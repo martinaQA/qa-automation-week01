@@ -10,14 +10,13 @@ describe('API commands', () => {
 
     it('Post command', async () => {
         const user = {
-            id: 12,
             name: "Greta Gerwig",
             username: "GretaG",
             email: "gretagerwig@barbie.com",
             website: "barbieworld.org",
         };
         await createUser(user);
-        userId = 12;
+        userId = 1;
     });
 
     it('Get command', async () => {
